@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Admission Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1 class="form_title">General Admission Registration</h1>
+      </section>
+      <form action="" class="form">
+        <section class="left_form">
+          <section class="form_control">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              name="fname "
+              id="fname"
+              required
+              placeholder="First Name"
+            />
+
+          </section>
+          <section class="form_control">
+            <label for="lname">Last Name</label>
+
+            <input
+              type="text"
+              name="lname "
+              id="lname"
+              required
+              placeholder="Last Name"
+            />
+          </section>
+
+          <section class="form_control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="sample@gmail.com"
+              requiredf
+            />
+          </section>
+
+          <section class="form_control">
+            <label for="gender">Gender</label>
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+            />Female
+            <input type="radio" name="gender" id="male" value="male" />Male
+          </section>
+
+          <section class="form_control">
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="+8801818375399"
+            />
+          </section>
+          <section class="form_control">
+            <label for="ec">Emergencey Contract</label>
+            <input type="tel" name="ec" id="ec" />
+          </section>
+          <section class="form_control">
+            <label for="parking">Do you require parking?</label>
+            <input type="radio" name="parking" id="parking1" />Yes
+            <input type="radio" name="parking" id="parking2" />No
+          </section>
+          <section class="form_control ">
+            <label for="room">What is your room preference?</label>
+            <input type="radio" name="room" id="room1" />Single Room <br><br>
+            <input type="radio" name="room" id="room2" />Shared Room <br><br>
+            <input type="radio" name="room" id="room3" />No Room Needed
+          </section>
+        </section>
+        <section class="right_form">
+          <section class="form_control ">
+
+             <label for="dietary">Do you have dietary restrictions?</label><br>
+        <input type="radio" name="dietary" id="dietary1" />    None <br><br>
+            <input type="radio" name="dietary" id="dietary2" />Vegetarian <br><br>
+            <input type="radio" name="dietary" id="dietary3" />Glutten Allergy <br><br>
+            <input type="radio" name="dietary" id="dietary4" />Lactose Allergy <br><br>
+            <input type="radio" name="dietary" id="dietary5" />Nut Allergy <br><br>
+            <input type="radio" name="dietary" id="dietary6" />Shellfish Allergy
+          </section>
+
+          <section class="form_control  ">
+            <label for="attend">What activities will you attend?</label><br>
+            <input type="radio" name="attend" id="attend1" />Awards Gala Dinner <br><br>
+            <input type="radio" name="attend" id="attend2" />Luncheon <br><br>
+            <input type="radio" name="attend" id="attend3" />Town Hall
+          </section>
+
+          <section class="form_control">
+            <label for="event"
+              >Do you want to see the list of other attendes and their profiles
+              on the official event app?</label><br><br>
+
+            <input type="radio" name="event" id="event1" />Yes
+            <input type="radio" name="event" id="event2" />No
+          </section>
+        </section>
+
+        <section class="form_control_btn">
+            <button type="submit">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
